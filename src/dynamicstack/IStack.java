@@ -2,9 +2,9 @@
 package dynamicstack;
 
 public interface IStack {
-        void push(Node value);
-	Node pop();
-	Node peek();
+        void push(int value);
+	int pop();
+	int peek();
 	boolean voidStack();
 	boolean fullStack();
         int size();

@@ -5,10 +5,17 @@ public class Node {
     int value;
     Node next;
     
+    public Node(){}
+    
     public Node(int value, Node next){
         this.value = value;
         this.next = next;
     }
+    
+    public void display(){
+        System.out.println(value);
+    }
+    
     public int getDado() {
         return this.value;
     }
